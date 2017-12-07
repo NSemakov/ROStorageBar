@@ -17,5 +17,5 @@ Pod::Spec.new do |spec|
     spec.source       = { :git => 'https://github.com/prine/ROStorageBar.git', :tag => '2.1.3' }
     spec.source_files = 'Source/**/*'
     spec.framework    = 'SystemConfiguration'
-    spec.ios.deployment_target  = '8.4'
+    spec.ios.deployment_target  = '8.0'
 end
